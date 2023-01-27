@@ -59,8 +59,8 @@ public class LFGConfig {
 		genEntityInfo(LOTREntityRohirrimWarrior.class, "Rohirrim", 41, 5524296, 13546384);
 		genEntityInfo(LOTREntityRohirrimArcher.class, "RohirrimArcher", 42, 5524296, 13546384);
 		genEntityInfo(LOTREntityRohirrimMarshal.class, "RohirrimMarshal", 43, 6180940, 14857848);
-		genEntityInfo(LOTREntityHobbitBounder.class, "HobbitShirriff", 44, 16752511, 8010275);
-		genEntityInfo(LOTREntityHobbitShirriff.class, "HobbitShirriffChief", 45, 16752511, 8010275);
+		genEntityInfo(LOTREntityHobbitShirriff.class, "HobbitShirriff", 44, 16752511, 8010275);
+		genEntityInfo(LOTREntityHobbitShirriffChief.class, "HobbitShirriffChief", 45, 16752511, 8010275);
 		genEntityInfo(LOTREntityRohanBlacksmith.class, "RohanBlacksmith", 46, 16424833, 13406801);
 		genEntityInfo(LOTREntityRangerNorth.class, "RangerNorth", 47, 4473912, 2302748);
 		genEntityInfo(LOTREntityRangerIthilien.class, "RangerIthilien", 48, 4015141, 1382669);
@@ -157,7 +157,7 @@ public class LFGConfig {
 		genEntityInfo(LOTREntityDolGuldurOrcChieftain.class, "DolGuldurChieftain", 139, 4408654, 2040101);
 		genEntityInfo(LOTREntityMirkTroll.class, "MirkTroll", 140, 4408654, 2040101);
 		genEntityInfo(LOTREntityGundabadBannerBearer.class, "GundabadBannerBearer", 141, 3352346, 8548435);
-		genEntityInfo(LOTREntityTermite.class, "Termite", 142, 12748857, 7948066);
+		genEntityInfo(LOTREntityTermite.class, "Termite", 142, 1512461, 3091236);
 		genEntityInfo(LOTREntityDikDik.class, "DikDik", 143, 12023867, 6833961);
 		genEntityInfo(LOTREntityBlackUruk.class, "BlackUruk", 144, 988430, 2830632);
 		genEntityInfo(LOTREntityBlackUrukArcher.class, "BlackUrukArcher", 145, 988430, 2830632);
@@ -400,28 +400,6 @@ public class LFGConfig {
 		genEntityInfo(LOTREntityWhiteOryx.class, "WhiteOryx", 382, 16381146, 8154724);
 		genEntityInfo(LOTREntityBlackUrukCaptain.class, "BlackUrukCaptain", 383, 988430, 2830632);
 		genEntityInfo(LOTREntityWickedDwarf.class, "WickedDwarf", 384, 14516076, 8869453);
-		genEntityInfo(LOTREntityBreeMan.class, "BreeMan", 385, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeGuard.class, "BreeGuard", 386, 9335640, 3681573);
-		genEntityInfo(LOTREntityBreeBannerBearer.class, "BreeBannerBearer", 387, 9335640, 3681573);
-		genEntityInfo(LOTREntityBreeCaptain.class, "BreeCaptain", 388, 9335640, 3681573);
-		genEntityInfo(LOTREntityBreeBlacksmith.class, "BreeBlacksmith", 389, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeInnkeeper.class, "BreeInnkeeper", 390, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeHobbit.class, "BreeHobbit", 391, 16752511, 8010275);
-		genEntityInfo(LOTREntityRuffianSpy.class, "RuffianSpy", 392, 14713187, 5191213);
-		genEntityInfo(LOTREntityRuffianBrute.class, "RuffianBrute", 393, 14713187, 5191213);
-		genEntityInfo(LOTREntityBreeHobbitInnkeeper.class, "BreeHobbitInnkeeper", 394, 16752511, 8010275);
-		genEntityInfo(LOTREntityBreeBaker.class, "BreeBaker", 395, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeButcher.class, "BreeButcher", 396, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeBrewer.class, "BreeBrewer", 397, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeMason.class, "BreeMason", 398, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeLumberman.class, "BreeLumberman", 399, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeFlorist.class, "BreeFlorist", 400, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeFarmer.class, "BreeFarmer", 401, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeFarmhand.class, "BreeFarmhand", 402, 14254950, 6573367);
-		genEntityInfo(LOTREntityBreeHobbitBaker.class, "BreeHobbitBaker", 403, 16752511, 8010275);
-		genEntityInfo(LOTREntityBreeHobbitButcher.class, "BreeHobbitButcher", 404, 16752511, 8010275);
-		genEntityInfo(LOTREntityBreeHobbitBrewer.class, "BreeHobbitBrewer", 405, 16752511, 8010275);
-		genEntityInfo(LOTREntityBreeHobbitFlorist.class, "BreeHobbitFlorist", 406, 16752511, 8010275);
 		genEntityInfo(LOTREntityUtumnoOrc.class, "UtumnoOrc", 800, 2694951, 10377233);
 		genEntityInfo(LOTREntityUtumnoOrcArcher.class, "UtumnoOrcArcher", 801, 2694951, 10377233);
 		genEntityInfo(LOTREntityUtumnoWarg.class, "UtumnoWarg", 802, 4600617, 2694422);
@@ -436,6 +414,75 @@ public class LFGConfig {
 		genEntityInfo(LOTREntityGollum.class, "Gollum", 1001, 13417872, 9471333);
 		genEntityInfo(LOTREntitySaruman.class, "Saruman", 1002, 15132390, 11776947);
 		genEntityInfo(LOTREntityGandalf.class, "Gandalf", 1003, 9605778, 5923198);
+		genEntityInfo(LOTREntityRedDwarf.class, "RedDwarf", 2036, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfWarrior.class, "RedDwarfWarrior", 2037, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfAxe.class, "RedDwarfAxe", 2038, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfBerserk.class, "RedDwarfBerserk", 2039, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfZnam.class, "RedDwarfZnam", 2040, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfCap.class, "RedDwarfCap", 2041, 10713966, 15357473);
+		genEntityInfo(LOTREntityAngbandOrc.class, "AngbandOrc", 2042, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandUruc.class, "AngbandUruc", 2043, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandBerserk.class, "AngbandBerserk", 2044, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandCrossbow.class, "AngbandCrossbow", 2045, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandZnam.class, "AngbandZnam", 2046, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandWarg.class, "AngbandWarg", 2047, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandWargIce.class, "AngbandWargIce", 2048, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandWargObsidian.class, "AngbandWargObsidiank", 2049, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandWargFire.class, "AngbandWargFire", 2050, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandWargBombardier.class, "AngbandWargBombardier", 2051, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandTrollIce.class, "AngbandTrollIce", 2052, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandTrollObsidian.class, "AngbandTrollObsidian", 2053, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandBalrog.class, "AngbandBalrog", 2054, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandCap.class, "AngbandCap", 2055, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandElf.class, "AngbandElf", 2056, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandOrcArcher.class, "AngbandArcher", 2057, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandSpiderIce.class, "AngbandSpiderIce", 2058, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandSpiderObsidian.class, "SpiderObsidian", 2059, 3343616, 15357473);
+		genEntityInfo(LOTREntityRedDwarfSmith.class, "RedDwarfSmith", 2060, 10713966, 15357473);
+		genEntityInfo(LOTREntityAngbandZnam1.class, "AngbandZnam1", 2061, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandZnam2.class, "AngbandZnam2", 2062, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandSpiderFire.class, "AngbandSpiderFire", 2063, 3343616, 15357473);
+		genEntityInfo(LOTREntityWhiteWarg.class, "WhiteWarg", 2064, 15132390, 11776947);
+		genEntityInfo(LOTREntityRedDwarfFlameThrower.class, "RedDwarfFlameThrower", 2066, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfFlameThrower.class, "RedDwarfFlameThrower", 2066, 10713966, 15357473);
+		genEntityInfo(LOTREntityEreborDwarf.class, "EreborDwarf", 2067, 2638384, 7108730);
+		genEntityInfo(LOTREntityEreborDwarfWarrior.class, "EreborDwarfWarrior", 2068, 2638384, 7108730);
+		genEntityInfo(LOTREntityEreborDwarfCommander.class, "EreborDwarfCommander", 2069, 2638384, 7108730);
+		genEntityInfo(LOTREntityEreborDwarfAxeThrower.class, "EreborDwarfAxeThrower", 2070, 2638384, 7108730);
+		genEntityInfo(LOTREntityEreborDwarfBerserk.class, "EreborDwarfBerserk", 2071, 2638384, 7108730);
+		genEntityInfo(LOTREntityEreborDwarfBannerBearer.class, "EreborDwarfBannerBearer", 2072, 2638384, 7108730);
+		genEntityInfo(LOTREntityDwarfBerserk.class, "DwarfBerserk", 2073, 2638384, 7108730);
+		genEntityInfo(LOTREntitySauron.class, "Sauron", 2074, 4147260, 2237218);
+		genEntityInfo(LOTREntityEreborDwarfCrossbow.class, "DwarfCrossbow", 2075, 2638384, 7108730);
+		genEntityInfo(LOTREntityGondorGuardCitadel.class, "GondorGuardCitadel", 2076, 5327948, 15063770);
+		genEntityInfo(LOTREntityMordorBerserk.class, "MordorBerserk", 2077, 4147260, 2237218);
+		genEntityInfo(LOTREntityAngmarOrcWarrior.class, "AngmarOrcWarrior", 2078, 4147260, 2237218);
+		genEntityInfo(LOTREntityRedDwarfFlameThrower.class, "RedDwarfFlameThrower", 2066, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarf2.class, "RedDwarfOrocarni", 2079, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfWarrior2.class, "RedDwarfWarriorOrocarni", 2080, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfAxe2.class, "RedDwarfAxeOrocarni", 2081, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfBerserk2.class, "RedDwarfBerserkOrocarni", 2082, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfZnam2.class, "RedDwarfZnamOrocarni", 2083, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfCap2.class, "RedDwarfCapOrocarni", 2084, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfFlameThrower2.class, "RedDwarfFlameThrowerOrocarni", 2085, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfSmith2.class, "RedDwarfSmithOrocarni", 2086, 10713966, 15357473);
+		genEntityInfo(LOTREntityRedDwarfWarrior3.class, "EreborGuard", 2087, 2638384, 15357472);
+		genEntityInfo(LOTREntityRedDwarfAxe3.class, "EreborGuardAxe", 2088, 2638384, 15357472);
+		genEntityInfo(LOTREntityAngbandTrollFire.class, "AngbandTrollFire", 2089, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandTrollPoison.class, "AngbandTrollPoison", 2090, 3343616, 15357473);
+		genEntityInfo(LOTREntityUrukHaiBerserkerArcher.class, "BerserkerArcher", 2091, 4147260, 2237218);
+		genEntityInfo(LOTREntityEreborDwarfSmith.class, "EreborDwarfSmith", 2092, 2638384, 7108730);
+		genEntityInfo(LOTREntityGundabadUruk2.class, "UrukDolGuldur", 2093, 4147260, 2237218);
+		genEntityInfo(LOTREntityDarkElf.class, "DarkElf", 2094, 4147260, 2237218);
+		genEntityInfo(LOTREntityWindDwarf.class, "WindDwarf", 2095, 7557508, 7108730);
+		genEntityInfo(LOTREntityWindDwarfWarrior.class, "WindDwarfWarrior", 2096, 7557508, 7108730);
+		genEntityInfo(LOTREntityWindDwarfCommander.class, "WindDwarfCommander", 2097, 7557508, 7108730);
+		genEntityInfo(LOTREntityWindDwarfAxeThrower.class, "WindDwarfAxeThrower", 2098, 7557508, 7108730);
+		genEntityInfo(LOTREntityWindDwarfBannerBearer.class, "WindDwarfBannerBearer", 2099, 7557508, 7108730);
+		genEntityInfo(LOTREntityAngbandCapSpider.class, "AngbandCapSpider", 2100, 3343616, 15357473);
+		genEntityInfo(LOTREntityAngbandCapWarg.class, "AngbandCapWarg", 2101, 3343616, 15357473);
+		genEntityInfo(LOTREntityGundabadCaveTroll.class, "CaveTroll", 2102, 3343616, 15357473);
+		genEntityInfo(LOTREntityUtumnoTrader.class, "UtumnoTrader", 2103, 3343616, 15357473);
 	}
 
 	public void authorizeStructureInfo() {
@@ -446,119 +493,81 @@ public class LFGConfig {
 		genStructureInfo(5, LOTRWorldGenHobbitFarm.class, "HobbitFarm", 9324081, 15975807);
 		genStructureInfo(6, LOTRWorldGenHayBales.class, "HayBale", 14863437, 11499334);
 		genStructureInfo(7, LOTRWorldGenHobbitHouse.class, "HobbitHouse", 9324081, 15975807);
-		genStructureInfo(8, LOTRWorldGenHobbitBurrow.class, "HobbitBurrow", 9324081, 15975807);
-		genStructureInfo(20, LOTRWorldGenBreeHouse.class, "BreeHouse", 7366748, 13547379);
-		genStructureInfo(21, LOTRWorldGenBreeOffice.class, "BreeOffice", 7366748, 13547379);
-		genStructureInfo(22, LOTRWorldGenBreeSmithy.class, "BreeSmithy", 7895160, 13547379);
-		genStructureInfo(23, LOTRWorldGenBreeInn.class, "BreeInn", 7366748, 13547379);
-		genStructureInfo(24, LOTRWorldGenBreeWell.class, "BreeWell", 7366748, 13547379);
-		genStructureInfo(25, LOTRWorldGenBreeLampPost.class, "BreeLampPost", 7366748, 13547379);
-		genStructureInfo(26, LOTRWorldGenBreeBarn.class, "BreeBarn", 7366748, 13547379);
-		genStructureInfo(27, LOTRWorldGenBreeRuffianHouse.class, "BreeRuffianHouse", 7366748, 13547379);
-		genStructureInfo(28, LOTRWorldGenBreeStable.class, "BreeStables", 7366748, 13547379);
-		genStructureInfo(29, LOTRWorldGenBreeGarden.class, "BreeGarden", 3056942, 9012349);
-		genStructureInfo(30, LOTRWorldGenBreeHobbitBurrow.class, "BreeHobbitBurrow", 7366748, 13547379);
-		genStructureInfo(31, LOTRWorldGenBreeMarketStall.Baker.class, "BreeMarketBaker", 16246393, 13547379);
-		genStructureInfo(32, LOTRWorldGenBreeMarketStall.Butcher.class, "BreeMarketButcher", 14173509, 13547379);
-		genStructureInfo(33, LOTRWorldGenBreeMarketStall.Brewer.class, "BreeMarketBrewer", 11368000, 13547379);
-		genStructureInfo(34, LOTRWorldGenBreeMarketStall.Mason.class, "BreeMarketMason", 8948105, 13547379);
-		genStructureInfo(35, LOTRWorldGenBreeMarketStall.Lumber.class, "BreeMarketLumber", 7160619, 13547379);
-		genStructureInfo(36, LOTRWorldGenBreeMarketStall.Smith.class, "BreeMarketSmith", 5658198, 13547379);
-		genStructureInfo(37, LOTRWorldGenBreeMarketStall.Florist.class, "BreeMarketFlorist", 10966702, 13547379);
-		genStructureInfo(38, LOTRWorldGenBreeMarketStall.Farmer.class, "BreeMarketFarmer", 5137960, 13547379);
-		genStructureInfo(39, LOTRWorldGenBreeMarket.class, "BreeMarket", 7366748, 13547379);
-		genStructureInfo(40, new LOTRVillageGenBree(LOTRBiome.breeland, 1.0f), "BreeHamlet", 7366748, 13547379, new IVillageProperties<LOTRVillageGenBree.Instance>() {
-
-			@Override
-			public void apply(LOTRVillageGenBree.Instance instance) {
-				instance.villageType = LOTRVillageGenBree.VillageType.HAMLET;
-			}
-		});
-		genStructureInfo(41, new LOTRVillageGenBree(LOTRBiome.breeland, 1.0f), "BreeVillage", 7366748, 13547379, new IVillageProperties<LOTRVillageGenBree.Instance>() {
-
-			@Override
-			public void apply(LOTRVillageGenBree.Instance instance) {
-				instance.villageType = LOTRVillageGenBree.VillageType.VILLAGE;
-			}
-		});
-		genStructureInfo(42, LOTRWorldGenBreeGate.class, "BreeGate", 7366748, 13547379);
-		genStructureInfo(43, LOTRWorldGenBreeGatehouse.class, "BreeGatehouse", 7366748, 13547379);
-		genStructureInfo(50, LOTRWorldGenBlueMountainsHouse.class, "BlueMountainsHouse", 10397380, 7633815);
-		genStructureInfo(51, LOTRWorldGenBlueMountainsStronghold.class, "BlueMountainsStronghold", 10397380, 7633815);
-		genStructureInfo(52, LOTRWorldGenBlueMountainsSmithy.class, "BlueMountainsSmithy", 10397380, 7633815);
-		genStructureInfo(60, LOTRWorldGenHighElvenTurret.class, "HighElvenTurret", 13419962, 11380637);
-		genStructureInfo(61, LOTRWorldGenRuinedHighElvenTurret.class, "RuinedHighElvenTurret", 13419962, 11380637);
-		genStructureInfo(62, LOTRWorldGenHighElvenHall.class, "HighElvenHall", 13419962, 11380637);
-		genStructureInfo(63, LOTRWorldGenUnderwaterElvenRuin.class, "UnderwaterElvenRuin", 13419962, 11380637);
-		genStructureInfo(64, LOTRWorldGenHighElvenForge.class, "HighElvenForge", 13419962, 11380637);
-		genStructureInfo(65, LOTRWorldGenRuinedEregionForge.class, "RuinedEregionForge", 13419962, 11380637);
-		genStructureInfo(66, LOTRWorldGenHighElvenTower.class, "HighElvenTower", 13419962, 11380637);
-		genStructureInfo(67, LOTRWorldGenTowerHillsTower.class, "TowerHillsTower", 16250346, 14211019);
-		genStructureInfo(68, LOTRWorldGenHighElfHouse.class, "HighElfHouse", 13419962, 11380637);
-		genStructureInfo(69, LOTRWorldGenRivendellHouse.class, "RivendellHouse", 13419962, 11380637);
-		genStructureInfo(70, LOTRWorldGenRivendellHall.class, "RivendellHall", 13419962, 11380637);
-		genStructureInfo(71, LOTRWorldGenRivendellForge.class, "RivendellForge", 13419962, 11380637);
-		genStructureInfo(80, LOTRWorldGenRuinedDunedainTower.class, "RuinedDunedainTower", 8947848, 6052956);
-		genStructureInfo(81, LOTRWorldGenRuinedHouse.class, "RuinedHouse", 8355197, 6838845);
-		genStructureInfo(82, LOTRWorldGenRangerTent.class, "RangerTent", 3755037, 4142111);
-		genStructureInfo(83, LOTRWorldGenNumenorRuin.class, "NumenorRuin", 8947848, 6052956);
-		genStructureInfo(84, LOTRWorldGenBDBarrow.class, "BDBarrow", 6586202, 6505786);
-		genStructureInfo(85, LOTRWorldGenRangerWatchtower.class, "RangerWatchtower", 5982252, 13411436);
-		genStructureInfo(86, LOTRWorldGenBurntHouse.class, "BurntHouse", 1117449, 3288357);
-		genStructureInfo(87, LOTRWorldGenRottenHouse.class, "RottenHouse", 3026204, 5854007);
-		genStructureInfo(88, LOTRWorldGenRangerHouse.class, "RangerHouse", 5982252, 13411436);
-		genStructureInfo(89, LOTRWorldGenRangerLodge.class, "RangerLodge", 5982252, 13411436);
-		genStructureInfo(90, LOTRWorldGenRangerStables.class, "RangerStables", 5982252, 13411436);
-		genStructureInfo(91, LOTRWorldGenRangerSmithy.class, "RangerSmithy", 5982252, 13411436);
-		genStructureInfo(92, LOTRWorldGenRangerWell.class, "RangerWell", 5982252, 13411436);
-		genStructureInfo(93, LOTRWorldGenRangerVillageLight.class, "RangerVillageLight", 5982252, 13411436);
-		genStructureInfo(94, new LOTRVillageGenDunedain(LOTRBiome.angle, 1.0f), "DunedainVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenDunedain.Instance>() {
-
+		genStructureInfo(20, LOTRWorldGenBlueMountainsHouse.class, "BlueMountainsHouse", 10397380, 7633815);
+		genStructureInfo(21, LOTRWorldGenBlueMountainsStronghold.class, "BlueMountainsStronghold", 10397380, 7633815);
+		genStructureInfo(22, LOTRWorldGenBlueMountainsSmithy.class, "BlueMountainsSmithy", 10397380, 7633815);
+		genStructureInfo(30, LOTRWorldGenHighElvenTurret.class, "HighElvenTurret", 13419962, 11380637);
+		genStructureInfo(31, LOTRWorldGenRuinedHighElvenTurret.class, "RuinedHighElvenTurret", 13419962, 11380637);
+		genStructureInfo(32, LOTRWorldGenHighElvenHall.class, "HighElvenHall", 13419962, 11380637);
+		genStructureInfo(33, LOTRWorldGenUnderwaterElvenRuin.class, "UnderwaterElvenRuin", 13419962, 11380637);
+		genStructureInfo(34, LOTRWorldGenHighElvenForge.class, "HighElvenForge", 13419962, 11380637);
+		genStructureInfo(35, LOTRWorldGenRuinedEregionForge.class, "RuinedEregionForge", 13419962, 11380637);
+		genStructureInfo(36, LOTRWorldGenHighElvenTower.class, "HighElvenTower", 13419962, 11380637);
+		genStructureInfo(37, LOTRWorldGenTowerHillsTower.class, "TowerHillsTower", 16250346, 14211019);
+		genStructureInfo(38, LOTRWorldGenHighElfHouse.class, "HighElfHouse", 13419962, 11380637);
+		genStructureInfo(39, LOTRWorldGenRivendellHouse.class, "RivendellHouse", 13419962, 11380637);
+		genStructureInfo(40, LOTRWorldGenRivendellHall.class, "RivendellHall", 13419962, 11380637);
+		genStructureInfo(41, LOTRWorldGenRivendellForge.class, "RivendellForge", 13419962, 11380637);
+		genStructureInfo(50, LOTRWorldGenRuinedDunedainTower.class, "RuinedDunedainTower", 8947848, 6052956);
+		genStructureInfo(51, LOTRWorldGenRuinedHouse.class, "RuinedHouse", 8355197, 6838845);
+		genStructureInfo(52, LOTRWorldGenRangerTent.class, "RangerTent", 3755037, 4142111);
+		genStructureInfo(53, LOTRWorldGenNumenorRuin.class, "NumenorRuin", 8947848, 6052956);
+		genStructureInfo(54, LOTRWorldGenBDBarrow.class, "BDBarrow", 6586202, 6505786);
+		genStructureInfo(55, LOTRWorldGenRangerWatchtower.class, "RangerWatchtower", 5982252, 13411436);
+		genStructureInfo(56, LOTRWorldGenBurntHouse.class, "BurntHouse", 1117449, 3288357);
+		genStructureInfo(57, LOTRWorldGenRottenHouse.class, "RottenHouse", 3026204, 5854007);
+		genStructureInfo(58, LOTRWorldGenRangerHouse.class, "RangerHouse", 5982252, 13411436);
+		genStructureInfo(59, LOTRWorldGenRangerLodge.class, "RangerLodge", 5982252, 13411436);
+		genStructureInfo(60, LOTRWorldGenRangerStables.class, "RangerStables", 5982252, 13411436);
+		genStructureInfo(61, LOTRWorldGenRangerSmithy.class, "RangerSmithy", 5982252, 13411436);
+		genStructureInfo(62, LOTRWorldGenRangerWell.class, "RangerWell", 5982252, 13411436);
+		genStructureInfo(63, LOTRWorldGenRangerVillageLight.class, "RangerVillageLight", 5982252, 13411436);
+		genStructureInfo(64, new LOTRVillageGenDunedain(LOTRBiome.angle, 1.0F), "DunedainVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenDunedain.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenDunedain.Instance instance) {
 				instance.villageType = LOTRVillageGenDunedain.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(95, LOTRWorldGenRangerCamp.class, "RangerCamp", 3755037, 4142111);
-		genStructureInfo(120, LOTRWorldGenOrcDungeon.class, "OrcDungeon", 8947848, 6052956);
-		genStructureInfo(121, LOTRWorldGenGundabadTent.class, "GundabadTent", 2301210, 131586);
-		genStructureInfo(122, LOTRWorldGenGundabadForgeTent.class, "GundabadForgeTent", 2301210, 131586);
-		genStructureInfo(123, LOTRWorldGenGundabadCamp.class, "GundabadCamp", 2301210, 131586);
-		genStructureInfo(140, LOTRWorldGenAngmarTower.class, "AngmarTower", 3815994, 1644825);
-		genStructureInfo(141, LOTRWorldGenAngmarShrine.class, "AngmarShrine", 3815994, 1644825);
-		genStructureInfo(142, LOTRWorldGenAngmarWargPit.class, "AngmarWargPit", 3815994, 1644825);
-		genStructureInfo(143, LOTRWorldGenAngmarTent.class, "AngmarTent", 2301210, 131586);
-		genStructureInfo(144, LOTRWorldGenAngmarForgeTent.class, "AngmarForgeTent", 3815994, 1644825);
-		genStructureInfo(145, LOTRWorldGenAngmarCamp.class, "AngmarCamp", 2301210, 131586);
-		genStructureInfo(160, LOTRWorldGenAngmarHillmanHouse.class, "AngmarHillmanHouse", 6705465, 3813154);
-		genStructureInfo(161, LOTRWorldGenAngmarHillmanChieftainHouse.class, "AngmarHillmanChieftainHouse", 6705465, 3813154);
-		genStructureInfo(162, LOTRWorldGenRhudaurCastle.class, "RhudaurCastle", 3815994, 1644825);
-		genStructureInfo(200, LOTRWorldGenWoodElfPlatform.class, "WoodElfLookoutPlatform", 2498840, 4932405);
-		genStructureInfo(201, LOTRWorldGenWoodElfHouse.class, "WoodElfHouse", 2498840, 1004574);
-		genStructureInfo(202, LOTRWorldGenWoodElfTower.class, "WoodElfTower", 12692892, 9733494);
-		genStructureInfo(203, LOTRWorldGenRuinedWoodElfTower.class, "RuinedWoodElfTower", 12692892, 9733494);
-		genStructureInfo(204, LOTRWorldGenWoodElvenForge.class, "WoodElvenForge", 12692892, 9733494);
-		genStructureInfo(220, LOTRWorldGenDolGuldurAltar.class, "DolGuldurAltar", 4408654, 2040101);
-		genStructureInfo(221, LOTRWorldGenDolGuldurTower.class, "DolGuldurTower", 4408654, 2040101);
-		genStructureInfo(222, LOTRWorldGenDolGuldurSpiderPit.class, "DolGuldurSpiderPit", 4408654, 2040101);
-		genStructureInfo(223, LOTRWorldGenDolGuldurTent.class, "DolGuldurTent", 2301210, 131586);
-		genStructureInfo(224, LOTRWorldGenDolGuldurForgeTent.class, "DolGuldurForgeTent", 4408654, 2040101);
-		genStructureInfo(225, LOTRWorldGenDolGuldurCamp.class, "DolGuldurCamp", 2301210, 131586);
-		genStructureInfo(240, LOTRWorldGenDaleWatchtower.class, "DaleWatchtower", 13278568, 6836795);
-		genStructureInfo(241, LOTRWorldGenDaleFortress.class, "DaleFortress", 13278568, 6836795);
-		genStructureInfo(242, LOTRWorldGenDaleHouse.class, "DaleHouse", 13278568, 6836795);
-		genStructureInfo(243, LOTRWorldGenDaleSmithy.class, "DaleSmithy", 13278568, 6836795);
-		genStructureInfo(244, LOTRWorldGenDaleVillageTower.class, "DaleVillageTower", 13278568, 6836795);
-		genStructureInfo(245, LOTRWorldGenDaleBakery.class, "DaleBakery", 13278568, 6836795);
-		genStructureInfo(260, LOTRWorldGenDwarvenMineEntrance.class, "DwarvenMineEntrance", 4935761, 2961971);
-		genStructureInfo(261, LOTRWorldGenDwarvenTower.class, "DwarvenTower", 4935761, 2961971);
-		genStructureInfo(262, LOTRWorldGenDwarfHouse.class, "DwarfHouse", 4935761, 2961971);
-		genStructureInfo(263, LOTRWorldGenDwarvenMineEntranceRuined.class, "DwarvenMineEntranceRuined", 4935761, 2961971);
-		genStructureInfo(264, LOTRWorldGenDwarfSmithy.class, "DwarfSmithy", 4935761, 2961971);
-		genStructureInfo(265, LOTRWorldGenRuinedDwarvenTower.class, "DwarvenTowerRuined", 4935761, 2961971);
-		genStructureInfo(280, LOTRWorldGenElfHouse.class, "ElfHouse", 15325615, 2315809);
-		genStructureInfo(281, LOTRWorldGenElfLordHouse.class, "ElfLordHouse", 15325615, 2315809);
-		genStructureInfo(282, LOTRWorldGenGaladhrimForge.class, "GaladhrimForge", 14407118, 10854552);
+		genStructureInfo(65, LOTRWorldGenRangerCamp.class, "RangerCamp", 3755037, 4142111);
+		genStructureInfo(80, LOTRWorldGenOrcDungeon.class, "OrcDungeon", 8947848, 6052956);
+		genStructureInfo(81, LOTRWorldGenGundabadTent.class, "GundabadTent", 2301210, 131586);
+		genStructureInfo(82, LOTRWorldGenGundabadForgeTent.class, "GundabadForgeTent", 2301210, 131586);
+		genStructureInfo(83, LOTRWorldGenGundabadCamp.class, "GundabadCamp", 2301210, 131586);
+		genStructureInfo(100, LOTRWorldGenAngmarTower.class, "AngmarTower", 3815994, 1644825);
+		genStructureInfo(101, LOTRWorldGenAngmarShrine.class, "AngmarShrine", 3815994, 1644825);
+		genStructureInfo(102, LOTRWorldGenAngmarWargPit.class, "AngmarWargPit", 3815994, 1644825);
+		genStructureInfo(103, LOTRWorldGenAngmarTent.class, "AngmarTent", 2301210, 131586);
+		genStructureInfo(104, LOTRWorldGenAngmarForgeTent.class, "AngmarForgeTent", 3815994, 1644825);
+		genStructureInfo(105, LOTRWorldGenAngmarCamp.class, "AngmarCamp", 2301210, 131586);
+		genStructureInfo(110, LOTRWorldGenAngmarHillmanHouse.class, "AngmarHillmanHouse", 6705465, 3813154);
+		genStructureInfo(111, LOTRWorldGenAngmarHillmanChieftainHouse.class, "AngmarHillmanChieftainHouse", 6705465, 3813154);
+		genStructureInfo(112, LOTRWorldGenRhudaurCastle.class, "RhudaurCastle", 3815994, 1644825);
+		genStructureInfo(120, LOTRWorldGenWoodElfPlatform.class, "WoodElfLookoutPlatform", 2498840, 4932405);
+		genStructureInfo(121, LOTRWorldGenWoodElfHouse.class, "WoodElfHouse", 2498840, 1004574);
+		genStructureInfo(122, LOTRWorldGenWoodElfTower.class, "WoodElfTower", 12692892, 9733494);
+		genStructureInfo(123, LOTRWorldGenRuinedWoodElfTower.class, "RuinedWoodElfTower", 12692892, 9733494);
+		genStructureInfo(124, LOTRWorldGenWoodElvenForge.class, "WoodElvenForge", 12692892, 9733494);
+		genStructureInfo(130, LOTRWorldGenDolGuldurAltar.class, "DolGuldurAltar", 4408654, 2040101);
+		genStructureInfo(131, LOTRWorldGenDolGuldurTower.class, "DolGuldurTower", 4408654, 2040101);
+		genStructureInfo(132, LOTRWorldGenDolGuldurSpiderPit.class, "DolGuldurSpiderPit", 4408654, 2040101);
+		genStructureInfo(133, LOTRWorldGenDolGuldurTent.class, "DolGuldurTent", 2301210, 131586);
+		genStructureInfo(134, LOTRWorldGenDolGuldurForgeTent.class, "DolGuldurForgeTent", 4408654, 2040101);
+		genStructureInfo(135, LOTRWorldGenDolGuldurCamp.class, "DolGuldurCamp", 2301210, 131586);
+		genStructureInfo(140, LOTRWorldGenDaleWatchtower.class, "DaleWatchtower", 13278568, 6836795);
+		genStructureInfo(141, LOTRWorldGenDaleFortress.class, "DaleFortress", 13278568, 6836795);
+		genStructureInfo(142, LOTRWorldGenDaleHouse.class, "DaleHouse", 13278568, 6836795);
+		genStructureInfo(143, LOTRWorldGenDaleSmithy.class, "DaleSmithy", 13278568, 6836795);
+		genStructureInfo(144, LOTRWorldGenDaleVillageTower.class, "DaleVillageTower", 13278568, 6836795);
+		genStructureInfo(145, LOTRWorldGenDaleBakery.class, "DaleBakery", 13278568, 6836795);
+		genStructureInfo(150, LOTRWorldGenDwarvenMineEntrance.class, "DwarvenMineEntrance", 4935761, 2961971);
+		genStructureInfo(151, LOTRWorldGenDwarvenTower.class, "DwarvenTower", 4935761, 2961971);
+		genStructureInfo(152, LOTRWorldGenDwarfHouse.class, "DwarfHouse", 4935761, 2961971);
+		genStructureInfo(153, LOTRWorldGenDwarvenMineEntranceRuined.class, "DwarvenMineEntranceRuined", 4935761, 2961971);
+		genStructureInfo(154, LOTRWorldGenDwarfSmithy.class, "DwarfSmithy", 4935761, 2961971);
+		genStructureInfo(155, LOTRWorldGenRuinedDwarvenTower.class, "DwarvenTowerRuined", 4935761, 2961971);
+		genStructureInfo(200, LOTRWorldGenElfHouse.class, "ElfHouse", 15325615, 2315809);
+		genStructureInfo(201, LOTRWorldGenElfLordHouse.class, "ElfLordHouse", 15325615, 2315809);
+		genStructureInfo(202, LOTRWorldGenGaladhrimForge.class, "GaladhrimForge", 14407118, 10854552);
 		genStructureInfo(300, LOTRWorldGenMeadHall.class, "RohanMeadHall", 5982252, 13411436);
 		genStructureInfo(301, LOTRWorldGenRohanWatchtower.class, "RohanWatchtower", 5982252, 13411436);
 		genStructureInfo(302, LOTRWorldGenRohanBarrow.class, "RohanBarrow", 9016133, 16775901);
@@ -582,15 +591,13 @@ public class LFGConfig {
 		genStructureInfo(320, LOTRWorldGenRohanVillagePasture.class, "RohanVillagePasture", 7648578, 8546111);
 		genStructureInfo(321, LOTRWorldGenRohanVillageSign.class, "RohanVillageSign", 5982252, 13411436);
 		genStructureInfo(322, LOTRWorldGenRohanGatehouse.class, "RohanGatehouse", 5982252, 13411436);
-		genStructureInfo(323, new LOTRVillageGenRohan(LOTRBiome.rohan, 1.0f), "RohanVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenRohan.Instance>() {
-
+		genStructureInfo(323, new LOTRVillageGenRohan(LOTRBiome.rohan, 1.0F), "RohanVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenRohan.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenRohan.Instance instance) {
 				instance.villageType = LOTRVillageGenRohan.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(324, new LOTRVillageGenRohan(LOTRBiome.rohan, 1.0f), "RohanFortVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenRohan.Instance>() {
-
+		genStructureInfo(324, new LOTRVillageGenRohan(LOTRBiome.rohan, 1.0F), "RohanFortVillage", 5982252, 13411436, new IVillageProperties<LOTRVillageGenRohan.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenRohan.Instance instance) {
 				instance.villageType = LOTRVillageGenRohan.VillageType.FORT;
@@ -639,22 +646,19 @@ public class LFGConfig {
 		genStructureInfo(431, LOTRWorldGenGondorTownGarden.class, "GondorTownGarden", 7047232, 15066597);
 		genStructureInfo(432, LOTRWorldGenGondorTownTrees.class, "GondorTownTrees", 7047232, 15066597);
 		genStructureInfo(433, LOTRWorldGenGondorTownBench.class, "GondorTownBench", 14869218, 11513775);
-		genStructureInfo(434, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0f), "GondorVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(434, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0F), "GondorVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(435, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0f), "GondorTown", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(435, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0F), "GondorTown", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(436, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0f), "GondorFortVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(436, new LOTRVillageGenGondor(LOTRBiome.gondor, LOTRWorldGenGondorStructure.GondorFiefdom.GONDOR, 1.0F), "GondorFortVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -667,22 +671,19 @@ public class LFGConfig {
 		genStructureInfo(500, LOTRWorldGenDolAmrothStables.class, "DolAmrothStables", 15002613, 2709918);
 		genStructureInfo(501, LOTRWorldGenDolAmrothWatchtower.class, "DolAmrothWatchtower", 14869218, 11513775);
 		genStructureInfo(502, LOTRWorldGenDolAmrothWatchfort.class, "DolAmrothWatchfort", 15002613, 2709918);
-		genStructureInfo(503, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0f), "DolAmrothVillage", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(503, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0F), "DolAmrothVillage", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(504, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0f), "DolAmrothTown", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(504, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0F), "DolAmrothTown", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(505, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0f), "DolAmrothFortVillage", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(505, new LOTRVillageGenGondor(LOTRBiome.dorEnErnil, LOTRWorldGenGondorStructure.GondorFiefdom.DOL_AMROTH, 1.0F), "DolAmrothFortVillage", 15002613, 2709918, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -691,22 +692,19 @@ public class LFGConfig {
 		genStructureInfo(510, LOTRWorldGenLossarnachFortress.class, "LossarnachFortress", 14869218, 15138816);
 		genStructureInfo(511, LOTRWorldGenLossarnachWatchtower.class, "LossarnachWatchtower", 14869218, 11513775);
 		genStructureInfo(512, LOTRWorldGenLossarnachWatchfort.class, "LossarnachWatchfort", 14869218, 15138816);
-		genStructureInfo(513, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0f), "LossarnachVillage", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(513, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0F), "LossarnachVillage", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(514, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0f), "LossarnachTown", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(514, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0F), "LossarnachTown", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(515, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0f), "LossarnachFortVillage", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(515, new LOTRVillageGenGondor(LOTRBiome.lossarnach, LOTRWorldGenGondorStructure.GondorFiefdom.LOSSARNACH, 1.0F), "LossarnachFortVillage", 14869218, 15138816, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -715,22 +713,19 @@ public class LFGConfig {
 		genStructureInfo(520, LOTRWorldGenLebenninFortress.class, "LebenninFortress", 14869218, 621750);
 		genStructureInfo(521, LOTRWorldGenLebenninWatchtower.class, "LebenninWatchtower", 14869218, 11513775);
 		genStructureInfo(522, LOTRWorldGenLebenninWatchfort.class, "LebenninWatchfort", 14869218, 621750);
-		genStructureInfo(523, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0f), "LebenninVillage", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(523, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0F), "LebenninVillage", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(524, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0f), "LebenninTown", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(524, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0F), "LebenninTown", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(525, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0f), "LebenninFortVillage", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(525, new LOTRVillageGenGondor(LOTRBiome.lebennin, LOTRWorldGenGondorStructure.GondorFiefdom.LEBENNIN, 1.0F), "LebenninFortVillage", 14869218, 621750, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -739,22 +734,19 @@ public class LFGConfig {
 		genStructureInfo(530, LOTRWorldGenPelargirFortress.class, "PelargirFortress", 14869218, 2917253);
 		genStructureInfo(531, LOTRWorldGenPelargirWatchtower.class, "PelargirWatchtower", 14869218, 11513775);
 		genStructureInfo(532, LOTRWorldGenPelargirWatchfort.class, "PelargirWatchfort", 14869218, 2917253);
-		genStructureInfo(533, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0f), "PelargirVillage", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(533, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0F), "PelargirVillage", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(534, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0f), "PelargirTown", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(534, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0F), "PelargirTown", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(535, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0f), "PelargirFortVillage", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(535, new LOTRVillageGenGondor(LOTRBiome.pelargir, LOTRWorldGenGondorStructure.GondorFiefdom.PELARGIR, 1.0F), "PelargirFortVillage", 14869218, 2917253, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -763,22 +755,19 @@ public class LFGConfig {
 		genStructureInfo(540, LOTRWorldGenPinnathGelinFortress.class, "PinnathGelinFortress", 14869218, 1401651);
 		genStructureInfo(541, LOTRWorldGenPinnathGelinWatchtower.class, "PinnathGelinWatchtower", 14869218, 11513775);
 		genStructureInfo(542, LOTRWorldGenPinnathGelinWatchfort.class, "PinnathGelinWatchfort", 14869218, 1401651);
-		genStructureInfo(543, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0f), "PinnathGelinVillage", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(543, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0F), "PinnathGelinVillage", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(544, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0f), "PinnathGelinTown", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(544, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0F), "PinnathGelinTown", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(545, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0f), "PinnathGelinFortVillage", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(545, new LOTRVillageGenGondor(LOTRBiome.pinnathGelin, LOTRWorldGenGondorStructure.GondorFiefdom.PINNATH_GELIN, 1.0F), "PinnathGelinFortVillage", 14869218, 1401651, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -787,22 +776,19 @@ public class LFGConfig {
 		genStructureInfo(550, LOTRWorldGenBlackrootFortress.class, "BlackrootFortress", 14869218, 2367263);
 		genStructureInfo(551, LOTRWorldGenBlackrootWatchtower.class, "BlackrootWatchtower", 14869218, 11513775);
 		genStructureInfo(552, LOTRWorldGenBlackrootWatchfort.class, "BlackrootWatchfort", 14869218, 2367263);
-		genStructureInfo(553, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0f), "BlackrootVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(553, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0F), "BlackrootVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(554, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0f), "BlackrootTown", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(554, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0F), "BlackrootTown", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(555, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0f), "BlackrootFortVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(555, new LOTRVillageGenGondor(LOTRBiome.blackrootVale, LOTRWorldGenGondorStructure.GondorFiefdom.BLACKROOT_VALE, 1.0F), "BlackrootFortVillage", 14869218, 2367263, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -811,22 +797,19 @@ public class LFGConfig {
 		genStructureInfo(560, LOTRWorldGenLamedonFortress.class, "LamedonFortress", 14869218, 1784649);
 		genStructureInfo(561, LOTRWorldGenLamedonWatchtower.class, "LamedonWatchtower", 14869218, 11513775);
 		genStructureInfo(562, LOTRWorldGenLamedonWatchfort.class, "LamedonWatchfort", 14869218, 1784649);
-		genStructureInfo(563, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0f), "LamedonVillage", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(563, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0F), "LamedonVillage", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(564, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0f), "LamedonTown", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(564, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0F), "LamedonTown", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(565, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0f), "LamedonFortVillage", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
-
+		genStructureInfo(565, new LOTRVillageGenGondor(LOTRBiome.lamedon, LOTRWorldGenGondorStructure.GondorFiefdom.LAMEDON, 1.0F), "LamedonFortVillage", 14869218, 1784649, new IVillageProperties<LOTRVillageGenGondor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGondor.Instance instance) {
 				instance.villageType = LOTRVillageGenGondor.VillageType.FORT;
@@ -876,22 +859,19 @@ public class LFGConfig {
 		genStructureInfo(775, LOTRWorldGenEasterlingVillageFarm.Tree.class, "EasterlingFarmTree", 4030994, 12693373);
 		genStructureInfo(776, LOTRWorldGenEasterlingGatehouse.class, "EasterlingGatehouse", 6304287, 12693373);
 		genStructureInfo(777, LOTRWorldGenEasterlingLamp.class, "EasterlingLamp", 6304287, 12693373);
-		genStructureInfo(778, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0f, true), "EasterlingVillage", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
-
+		genStructureInfo(778, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0F, true), "EasterlingVillage", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenRhun.Instance instance) {
 				instance.villageType = LOTRVillageGenRhun.VillageType.VILLAGE;
 			}
 		});
-		genStructureInfo(779, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0f, true), "EasterlingTown", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
-
+		genStructureInfo(779, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0F, true), "EasterlingTown", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenRhun.Instance instance) {
 				instance.villageType = LOTRVillageGenRhun.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(780, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0f, true), "EasterlingFortVillage", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
-
+		genStructureInfo(780, new LOTRVillageGenRhun(LOTRBiome.rhunLand, 1.0F, true), "EasterlingFortVillage", 6304287, 12693373, new IVillageProperties<LOTRVillageGenRhun.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenRhun.Instance instance) {
 				instance.villageType = LOTRVillageGenRhun.VillageType.FORT;
@@ -910,8 +890,7 @@ public class LFGConfig {
 		genStructureInfo(1056, LOTRWorldGenNearHaradTent.class, "NearHaradTent", 13519170, 1775897);
 		genStructureInfo(1057, LOTRWorldGenHarnedorFarm.class, "HarnedorFarm", 10073953, 12814421);
 		genStructureInfo(1058, LOTRWorldGenHarnedorPasture.class, "HarnedorPasture", 10073953, 12814421);
-		genStructureInfo(1059, new LOTRVillageGenHarnedor(LOTRBiome.harnedor, 1.0f), "HarnedorVillage", 4994339, 12814421, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
-
+		genStructureInfo(1059, new LOTRVillageGenHarnedor(LOTRBiome.harnedor, 1.0F), "HarnedorVillage", 4994339, 12814421, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenHarnedor.Instance instance) {
 				instance.villageType = LOTRVillageGenHarnedor.VillageType.VILLAGE;
@@ -919,8 +898,7 @@ public class LFGConfig {
 		});
 		genStructureInfo(1060, LOTRWorldGenHarnedorStables.class, "HarnedorStables", 4994339, 12814421);
 		genStructureInfo(1061, LOTRWorldGenHarnedorVillageSign.class, "HarnedorVillageSign", 4994339, 12814421);
-		genStructureInfo(1062, new LOTRVillageGenHarnedor(LOTRBiome.harnedor, 1.0f), "HarnedorFortVillage", 4994339, 12814421, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
-
+		genStructureInfo(1062, new LOTRVillageGenHarnedor(LOTRBiome.harnedor, 1.0F), "HarnedorFortVillage", 4994339, 12814421, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenHarnedor.Instance instance) {
 				instance.villageType = LOTRVillageGenHarnedor.VillageType.FORTRESS;
@@ -928,8 +906,7 @@ public class LFGConfig {
 		});
 		genStructureInfo(1080, LOTRWorldGenHarnedorHouseRuined.class, "HarnedorHouseRuined", 5519919, 10059372);
 		genStructureInfo(1081, LOTRWorldGenHarnedorTavernRuined.class, "HarnedorTavernRuined", 5519919, 10059372);
-		genStructureInfo(1082, new LOTRVillageGenHarnedor(LOTRBiome.harondor, 1.0f).setRuined(), "HarnedorVillageRuined", 5519919, 10059372, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
-
+		genStructureInfo(1082, new LOTRVillageGenHarnedor(LOTRBiome.harondor, 1.0F).setRuined(), "HarnedorVillageRuined", 5519919, 10059372, new IVillageProperties<LOTRVillageGenHarnedor.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenHarnedor.Instance instance) {
 				instance.villageType = LOTRVillageGenHarnedor.VillageType.VILLAGE;
@@ -947,8 +924,7 @@ public class LFGConfig {
 		genStructureInfo(1109, LOTRWorldGenSouthronBazaar.class, "SouthronBazaar", 15063989, 10052655);
 		genStructureInfo(1110, LOTRWorldGenSouthronPasture.class, "SouthronPasture", 9547581, 10052655);
 		genStructureInfo(1111, LOTRWorldGenSouthronVillageSign.class, "SouthronVillageSign", 15063989, 10052655);
-		genStructureInfo(1112, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0f), "SouthronVillage", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
-
+		genStructureInfo(1112, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0F), "SouthronVillage", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenSouthron.Instance instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.VILLAGE;
@@ -958,8 +934,7 @@ public class LFGConfig {
 		genStructureInfo(1114, LOTRWorldGenSouthronBarracks.class, "SouthronBarracks", 15063989, 10052655);
 		genStructureInfo(1115, LOTRWorldGenSouthronTraining.class, "SouthronTraining", 15063989, 10052655);
 		genStructureInfo(1116, LOTRWorldGenSouthronFortGate.class, "SouthronFortGate", 15063989, 10052655);
-		genStructureInfo(1117, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0f), "SouthronFortVillage", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
-
+		genStructureInfo(1117, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0F), "SouthronFortVillage", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenSouthron.Instance instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.FORT;
@@ -968,8 +943,7 @@ public class LFGConfig {
 		genStructureInfo(1118, LOTRWorldGenSouthronLamp.class, "SouthronLamp", 15063989, 10052655);
 		genStructureInfo(1119, LOTRWorldGenSouthronTownTree.class, "SouthronTownTree", 9547581, 10052655);
 		genStructureInfo(1120, LOTRWorldGenSouthronTownFlowers.class, "SouthronTownFlowers", 9547581, 10052655);
-		genStructureInfo(1121, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0f), "SouthronTown", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
-
+		genStructureInfo(1121, new LOTRVillageGenSouthron(LOTRBiome.nearHaradFertile, 1.0F), "SouthronTown", 15063989, 10052655, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenSouthron.Instance instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.TOWN;
@@ -991,8 +965,7 @@ public class LFGConfig {
 		genStructureInfo(1159, LOTRWorldGenUmbarBazaar.class, "UmbarBazaar", 14407104, 3354926);
 		genStructureInfo(1160, LOTRWorldGenUmbarPasture.class, "UmbarPasture", 9547581, 3354926);
 		genStructureInfo(1161, LOTRWorldGenUmbarVillageSign.class, "UmbarVillageSign", 14407104, 3354926);
-		genStructureInfo(1162, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0f), "UmbarVillage", 14407104, 3354926, new IVillageProperties<LOTRVillageGenUmbar.InstanceUmbar>() {
-
+		genStructureInfo(1162, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0F), "UmbarVillage", 14407104, 3354926, new IVillageProperties<LOTRVillageGenUmbar.InstanceUmbar>() {
 			@Override
 			public void apply(LOTRVillageGenUmbar.InstanceUmbar instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.VILLAGE;
@@ -1002,8 +975,7 @@ public class LFGConfig {
 		genStructureInfo(1164, LOTRWorldGenUmbarBarracks.class, "UmbarBarracks", 14407104, 3354926);
 		genStructureInfo(1165, LOTRWorldGenUmbarTraining.class, "UmbarTraining", 14407104, 3354926);
 		genStructureInfo(1166, LOTRWorldGenUmbarFortGate.class, "UmbarFortGate", 14407104, 3354926);
-		genStructureInfo(1167, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0f), "UmbarFortVillage", 14407104, 3354926, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
-
+		genStructureInfo(1167, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0F), "UmbarFortVillage", 14407104, 3354926, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenSouthron.Instance instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.FORT;
@@ -1012,8 +984,7 @@ public class LFGConfig {
 		genStructureInfo(1168, LOTRWorldGenUmbarLamp.class, "UmbarLamp", 14407104, 3354926);
 		genStructureInfo(1169, LOTRWorldGenUmbarTownTree.class, "UmbarTownTree", 9547581, 3354926);
 		genStructureInfo(1170, LOTRWorldGenUmbarTownFlowers.class, "UmbarTownFlowers", 9547581, 3354926);
-		genStructureInfo(1171, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0f), "UmbarTown", 14407104, 3354926, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
-
+		genStructureInfo(1171, new LOTRVillageGenUmbar(LOTRBiome.umbar, 1.0F), "UmbarTown", 14407104, 3354926, new IVillageProperties<LOTRVillageGenSouthron.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenSouthron.Instance instance) {
 				instance.villageType = LOTRVillageGenSouthron.VillageType.TOWN;
@@ -1028,15 +999,13 @@ public class LFGConfig {
 		genStructureInfo(1201, LOTRWorldGenNomadTentLarge.class, "NomadTentLarge", 16775927, 8345150);
 		genStructureInfo(1202, LOTRWorldGenNomadChieftainTent.class, "NomadChieftainTent", 16775927, 8345150);
 		genStructureInfo(1203, LOTRWorldGenNomadWell.class, "NomadWell", 5478114, 15391151);
-		genStructureInfo(1204, new LOTRVillageGenHaradNomad(LOTRBiome.nearHaradSemiDesert, 1.0f), "NomadVillageSmall", 16775927, 8345150, new IVillageProperties<LOTRVillageGenHaradNomad.Instance>() {
-
+		genStructureInfo(1204, new LOTRVillageGenHaradNomad(LOTRBiome.nearHaradSemiDesert, 1.0F), "NomadVillageSmall", 16775927, 8345150, new IVillageProperties<LOTRVillageGenHaradNomad.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenHaradNomad.Instance instance) {
 				instance.villageType = LOTRVillageGenHaradNomad.VillageType.SMALL;
 			}
 		});
-		genStructureInfo(1205, new LOTRVillageGenHaradNomad(LOTRBiome.nearHaradSemiDesert, 1.0f), "NomadVillageBig", 16775927, 8345150, new IVillageProperties<LOTRVillageGenHaradNomad.Instance>() {
-
+		genStructureInfo(1205, new LOTRVillageGenHaradNomad(LOTRBiome.nearHaradSemiDesert, 1.0F), "NomadVillageBig", 16775927, 8345150, new IVillageProperties<LOTRVillageGenHaradNomad.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenHaradNomad.Instance instance) {
 				instance.villageType = LOTRVillageGenHaradNomad.VillageType.BIG;
@@ -1055,23 +1024,20 @@ public class LFGConfig {
 		genStructureInfo(1259, LOTRWorldGenGulfTavern.class, "GulfTavern", 9335899, 5654831);
 		genStructureInfo(1260, LOTRWorldGenGulfVillageSign.class, "GulfVillageSign", 14737111, 16250349);
 		genStructureInfo(1261, LOTRWorldGenGulfVillageLight.class, "GulfVillageLight", 14737111, 16250349);
-		genStructureInfo(1262, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0f), "GulfVillage", 9335899, 5654831, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
-
+		genStructureInfo(1262, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0F), "GulfVillage", 9335899, 5654831, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGulfHarad.Instance instance) {
 				instance.villageType = LOTRVillageGenGulfHarad.VillageType.VILLAGE;
 			}
 		});
 		genStructureInfo(1263, LOTRWorldGenGulfPasture.class, "GulfPasture", 9547581, 12849937);
-		genStructureInfo(1264, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0f), "GulfTown", 15721151, 12873038, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
-
+		genStructureInfo(1264, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0F), "GulfTown", 15721151, 12873038, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGulfHarad.Instance instance) {
 				instance.villageType = LOTRVillageGenGulfHarad.VillageType.TOWN;
 			}
 		});
-		genStructureInfo(1265, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0f), "GulfFortVillage", 12849937, 4275226, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
-
+		genStructureInfo(1265, new LOTRVillageGenGulfHarad(LOTRBiome.gulfHarad, 1.0F), "GulfFortVillage", 12849937, 4275226, new IVillageProperties<LOTRVillageGenGulfHarad.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenGulfHarad.Instance instance) {
 				instance.villageType = LOTRVillageGenGulfHarad.VillageType.FORT;
@@ -1089,8 +1055,7 @@ public class LFGConfig {
 		genStructureInfo(1555, LOTRWorldGenTauredainChieftainPyramid.class, "TauredainChieftainPyramid", 6513746, 4803646);
 		genStructureInfo(1556, LOTRWorldGenTauredainVillageTree.class, "TauredainVillageTree", 9285414, 4796447);
 		genStructureInfo(1557, LOTRWorldGenTauredainVillageFarm.class, "TauredainVillageFarm", 9285414, 4796447);
-		genStructureInfo(1558, new LOTRVillageGenTauredain(LOTRBiome.tauredainClearing, 1.0f), "TauredainVillage", 6840658, 5979708, new IVillageProperties<LOTRVillageGenTauredain.Instance>() {
-
+		genStructureInfo(1558, new LOTRVillageGenTauredain(LOTRBiome.tauredainClearing, 1.0F), "TauredainVillage", 6840658, 5979708, new IVillageProperties<LOTRVillageGenTauredain.Instance>() {
 			@Override
 			public void apply(LOTRVillageGenTauredain.Instance instance) {
 			}
@@ -1098,6 +1063,22 @@ public class LFGConfig {
 		genStructureInfo(1559, LOTRWorldGenTauredainSmithy.class, "TauredainSmithy", 4796447, 8021303);
 		genStructureInfo(1700, LOTRWorldGenHalfTrollHouse.class, "HalfTrollHouse", 10058344, 5325111);
 		genStructureInfo(1701, LOTRWorldGenHalfTrollWarlordHouse.class, "HalfTrollWarlordHouse", 10058344, 5325111);
+		genStructureInfo(1995, LOTRWorldGenRedDwarvenTower.class, "RedDwarvenTower", 10713966, 15357473);
+		genStructureInfo(1996, LOTRWorldGenRedMountainsSmithy.class, "RedMountainsSmithy", 10713966, 15357473);
+		genStructureInfo(1997, LOTRWorldGenBlackUrukFort2.class, "AngbandTower", 10713966, 15357473);
+		genStructureInfo(1999, LOTRWorldGenAngbandTent.class, "AngbandTent", 10713966, 15357473);
+		genStructureInfo(2000, LOTRWorldGenAngbandForge.class, "AngbandForge", 10713966, 15357473);
+		genStructureInfo(2001, LOTRWorldGenEreborTower.class, "EreborTower", 10713966, 15357473);
+		genStructureInfo(2002, LOTRWorldGenEreborSmithy.class, "EreborSmithy", 10713966, 15357473);
+		genStructureInfo(2003, LOTRWorldGenRedMountainsHouse.class, "RedMountainsHouse", 10713966, 15357473);
+		genStructureInfo(2004, LOTRWorldGenRedDwarvenTower2.class, "OrocarniTower", 10713966, 15357473);
+		genStructureInfo(2005, LOTRWorldGenRedMountainsSmithy2.class, "OrocarniSmithy", 10713966, 15357473);
+		genStructureInfo(2006, LOTRWorldGenRedMountainsHouse2.class, "OrocarniHouse", 10713966, 15357473);
+		genStructureInfo(2007, LOTRWorldGenWindMountainsHouse.class, "WindHouse", 7557508, 7108730);
+		genStructureInfo(2008, LOTRWorldGenWindDwarvenTower.class, "WindTower", 7557508, 7108730);
+		genStructureInfo(2009, LOTRWorldGenUtumnoSpiderPit.class, "UtumnoSpiderPit", 10713966, 15357473);
+		genStructureInfo(2010, LOTRWorldGenAngbandTower.class, "UtumnoTower", 10713966, 15357473);
+		genStructureInfo(2011, LOTRWorldGenUtumnoWargPit.class, "UtumnoWargPit", 10713966, 15357473);
 	}
 
 	public void genEntityInfo(Class clazz, int id) {
