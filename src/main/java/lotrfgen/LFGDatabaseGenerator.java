@@ -982,46 +982,48 @@ public class LFGDatabaseGenerator extends LOTRWorldGenStructureBase2 {
 					HashSet<LOTRBiome> invasionBiomes = new HashSet<>();
 					HashSet<LOTRBiome> unnaturalBiomes = new HashSet<>();
 					next: for (LOTRBiome biome : biomes) {
-						List<SpawnListEntry> spawnEntries = new ArrayList<>();
-						List<SpawnListEntry> conquestEntries = new ArrayList<>();
-						List<InvasionSpawnEntry> invasionEntries = new ArrayList<>();
-						spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.ambient));
-						spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.waterCreature));
-						spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.creature));
-						spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.monster));
-						spawnEntries.addAll(biome.getSpawnableList(LOTRBiome.creatureType_LOTRAmbient));
-						for (FactionContainer facContainer : LFGReflectionHelper.getFactionContainers(biome.npcSpawnList)) {
-							if (LFGReflectionHelper.getBaseWeight(facContainer) > 0) {
-								for (SpawnListContainer container : LFGReflectionHelper.getSpawnLists(facContainer)) {
-									spawnEntries.addAll(LFGReflectionHelper.getSpawnListEntries(LFGReflectionHelper.getSpawnList(container)));
+						if (biome != null) {
+							List<SpawnListEntry> spawnEntries = new ArrayList<>();
+							List<SpawnListEntry> conquestEntries = new ArrayList<>();
+							List<InvasionSpawnEntry> invasionEntries = new ArrayList<>();
+							spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.ambient));
+							spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.waterCreature));
+							spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.creature));
+							spawnEntries.addAll(biome.getSpawnableList(EnumCreatureType.monster));
+							spawnEntries.addAll(biome.getSpawnableList(LOTRBiome.creatureType_LOTRAmbient));
+							for (FactionContainer facContainer : LFGReflectionHelper.getFactionContainers(biome.npcSpawnList)) {
+								if (LFGReflectionHelper.getBaseWeight(facContainer) > 0) {
+									for (SpawnListContainer container : LFGReflectionHelper.getSpawnLists(facContainer)) {
+										spawnEntries.addAll(LFGReflectionHelper.getSpawnListEntries(LFGReflectionHelper.getSpawnList(container)));
+									}
+								} else {
+									for (SpawnListContainer container : LFGReflectionHelper.getSpawnLists(facContainer)) {
+										conquestEntries.addAll(LFGReflectionHelper.getSpawnListEntries(LFGReflectionHelper.getSpawnList(container)));
+									}
 								}
-							} else {
-								for (SpawnListContainer container : LFGReflectionHelper.getSpawnLists(facContainer)) {
-									conquestEntries.addAll(LFGReflectionHelper.getSpawnListEntries(LFGReflectionHelper.getSpawnList(container)));
+							}
+							if (!LFGReflectionHelper.getRegisteredInvasions(biome.invasionSpawns).isEmpty()) {
+								for (LOTRInvasions invasion : LFGReflectionHelper.getRegisteredInvasions(biome.invasionSpawns)) {
+									invasionEntries.addAll(invasion.invasionMobs);
 								}
 							}
-						}
-						if (!LFGReflectionHelper.getRegisteredInvasions(biome.invasionSpawns).isEmpty()) {
-							for (LOTRInvasions invasion : LFGReflectionHelper.getRegisteredInvasions(biome.invasionSpawns)) {
-								invasionEntries.addAll(invasion.invasionMobs);
+							for (SpawnListEntry entry : spawnEntries) {
+								if (entry.entityClass == entityClass) {
+									spawnBiomes.add(biome);
+									continue next;
+								}
 							}
-						}
-						for (SpawnListEntry entry : spawnEntries) {
-							if (entry.entityClass == entityClass) {
-								spawnBiomes.add(biome);
-								continue next;
+							for (SpawnListEntry entry : conquestEntries) {
+								if (entry.entityClass == entityClass) {
+									conquestBiomes.add(biome);
+									break;
+								}
 							}
-						}
-						for (SpawnListEntry entry : conquestEntries) {
-							if (entry.entityClass == entityClass) {
-								conquestBiomes.add(biome);
-								break;
-							}
-						}
-						for (InvasionSpawnEntry entry : invasionEntries) {
-							if (entry.getEntityClass() == entityClass) {
-								invasionBiomes.add(biome);
-								break;
+							for (InvasionSpawnEntry entry : invasionEntries) {
+								if (entry.getEntityClass() == entityClass) {
+									invasionBiomes.add(biome);
+									break;
+								}
 							}
 						}
 					}
@@ -1458,20 +1460,22 @@ public class LFGDatabaseGenerator extends LOTRWorldGenStructureBase2 {
 
 	private void searchForPagenamesBiome(HashSet<LOTRBiome> biomes, HashSet<LOTRFaction> factions) {
 		next: for (LOTRBiome biome : biomes) {
-			String preName = getBiomeName(biome);
-			for (LOTRFaction fac : factions) {
-				if (preName.equals(getFactionName(fac))) {
-					biomePageMapping.put(preName, preName + " (" + biomePage + ")");
-					continue next;
+			if (biome != null) {
+				String preName = getBiomeName(biome);
+				for (LOTRFaction fac : factions) {
+					if (preName.equals(getFactionName(fac))) {
+						biomePageMapping.put(preName, preName + " (" + biomePage + ")");
+						continue next;
+					}
 				}
-			}
-			for (Class entity : classToEntityObjectMapping.keySet()) {
-				if (preName.equals(getEntityName(entity))) {
-					biomePageMapping.put(preName, preName + " (" + biomePage + ")");
-					continue next;
+				for (Class entity : classToEntityObjectMapping.keySet()) {
+					if (preName.equals(getEntityName(entity))) {
+						biomePageMapping.put(preName, preName + " (" + biomePage + ")");
+						continue next;
+					}
 				}
+				biomePageMapping.put(preName, preName);
 			}
-			biomePageMapping.put(preName, preName);
 		}
 	}
 
@@ -1479,7 +1483,7 @@ public class LFGDatabaseGenerator extends LOTRWorldGenStructureBase2 {
 		next: for (Class mob : classToEntityObjectMapping.keySet()) {
 			String preName = getEntityName(mob);
 			for (LOTRBiome biome : biomes) {
-				if (preName.equals(getBiomeName(biome))) {
+				if (biome != null && preName.equals(getBiomeName(biome))) {
 					entityPageMapping.put(preName, preName + " (" + entityPage + ")");
 					continue next;
 				}
@@ -1498,7 +1502,7 @@ public class LFGDatabaseGenerator extends LOTRWorldGenStructureBase2 {
 		next: for (LOTRFaction fac : factions) {
 			String preName = getFactionName(fac);
 			for (LOTRBiome biome : biomes) {
-				if (preName.equals(getBiomeName(biome))) {
+				if (biome != null && preName.equals(getBiomeName(biome))) {
 					factionPageMapping.put(preName, preName + " (" + factionPage + ")");
 					continue next;
 				}
